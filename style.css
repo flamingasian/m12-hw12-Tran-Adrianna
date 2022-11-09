@@ -70,11 +70,8 @@ body {
 .img_card__container {
   grid-area: c;
   display: grid;
-  grid-area: 
-    "a b c d"
-    "e f g h";
-  grid-gap: 20px;
-  grid-template-columns: repeat (auto-fill, minmax (300px,1fr));
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill) minmax (300px,1fr);
   grid-auto-rows: 350px;
 }
 
@@ -118,4 +115,4 @@ body {
   .nav__link::after, .nav__link--active::after {
     display: none;
   }
-}[:placeholder-shown]
+}
